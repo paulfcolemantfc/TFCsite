@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-kdp5c8s_*n8mr#(so578$)bl)%u0i203iq$$sdzf@zz+j0wv%1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+	"jumpserver.thefatherscall.org",
+	"localhost",
+]
 
 
 # Application definition
